@@ -1,0 +1,46 @@
+#ifndef STATEMENT_H
+#define STATEMENT_H
+
+
+class statement
+{
+public:
+    statement();
+};
+
+class remState : public statement
+{
+    
+};
+
+class letState : public statement
+{
+    
+};
+
+class printState : public statement
+{
+    
+};
+
+class inputState : public statement
+{
+    
+};
+
+class gotoState : public statement
+{
+    
+};
+
+class ifstate : public statement
+{
+    
+};
+
+class endState : public statement
+{
+    
+};
+
+#endif // STATEMENT_H
