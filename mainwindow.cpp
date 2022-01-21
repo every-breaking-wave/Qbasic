@@ -1,7 +1,5 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
-<<<<<<< HEAD
-=======
 #include <iostream>
 #include <QtDebug>
 #include "statement.h"
@@ -27,21 +25,17 @@
 using namespace  std;
 
 
->>>>>>> 146817e (ff)
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
     , ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
-<<<<<<< HEAD
-=======
     // this->ui->
     this->setWindowTitle("Qbasic written by FYF");
     ui->cmdLineEdit->setFocus();
     this->savedCode.setBrowser(ui->treeDisplay);
     connect(ui->cmdLineEdit, &QLineEdit::returnPressed, this, &MainWindow::press_enter);
->>>>>>> 146817e (ff)
 }
 
 MainWindow::~MainWindow()
@@ -49,14 +43,6 @@ MainWindow::~MainWindow()
     delete ui;
 }
 
-<<<<<<< HEAD
-void MainWindow::on_cmdLineEdit_editingFinished()
-{
-    QString cmd = ui->cmdLineEdit->text();
-    ui->cmdLineEdit->setText("");
-
-    ui->CodeDisplay->append(cmd);
-=======
 void MainWindow::append_code(QString Str){
 
     enum Type {Rem, Let, Print, Input, Goto, If, End};
@@ -251,5 +237,4 @@ void MainWindow::on_actionHelp_triggered()
 {
     QDesktopServices::openUrl(QUrl::fromLocalFile("../qbasic/help.pdf"));
 
->>>>>>> 146817e (ff)
 }

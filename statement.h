@@ -1,21 +1,14 @@
 #ifndef STATEMENT_H
 #define STATEMENT_H
 
-<<<<<<< HEAD
-=======
 #include <list>
 #include <iostream>
 #include <QDebug>
->>>>>>> 146817e (ff)
 
 class statement
 {
 public:
     statement();
-<<<<<<< HEAD
-};
-
-=======
   //  virtual void parseState();
 
 };
@@ -84,5 +77,4 @@ public:
 
 
 
->>>>>>> 146817e (ff)
 #endif // STATEMENT_H
