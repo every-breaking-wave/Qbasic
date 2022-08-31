@@ -1,4 +1,4 @@
-# Qbasic
-这是SJTU软件学院SEP课程的第二个project，虽然仅仅是1学分课程的15分，但我为此也算是花费了比较多的精力，虽然bug肯定还不少但也算勉强达到了要求吧，供后来的学弟学妹参考。
+# QBasic
+This is the second project of SJTU Software College SEP course, although it is only 15 points of the 1-credit course, I have spent much effort on it, although there are definitely still a lot of bugs, it is barely up to the requirements, for the reference of later SEers.
 
-后来注意到代码中有些部分可以删去，如statemen.h等，但是删去后编译出了些问题于是就予以保留了。
+I noticed that some parts of the code could be deleted, such as statemen.h, etc., but after the deletion of the compilation of some problems, so it was retained.
